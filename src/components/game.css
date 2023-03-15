@@ -5,8 +5,9 @@ h1 {
   align-items: center;
   border-bottom: 1px black;
   color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 .game-board {
   display: flex;
@@ -35,6 +36,7 @@ h1 {
 #keyboard {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
 

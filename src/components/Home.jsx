@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './home.css';
 
 const Home = () => {
   return (
@@ -7,15 +8,21 @@ const Home = () => {
       <h1>Welcome to Wordle Game!</h1>
       <br />
       <ul>
-        <li>
-          <Link to="/rule">Rule</Link>
-        </li>
-        <li>
-          <Link to="/hard">Hard</Link>
-        </li>
-        <li>
-          <Link to="/easy">Easy</Link>
-        </li>
+        
+        <Link to="/rule">
+            <h2>Rule</h2>
+        </Link>
+      </ul>  
+      <ul>
+        <Link to="/easy">
+            <h2>Easy</h2>
+        </Link>
+      </ul>
+      <ul>
+        <Link to="/hard">
+          <h2>Hard</h2>
+        </Link> 
+        
       </ul>
     </div>
   );

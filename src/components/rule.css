@@ -1,0 +1,46 @@
+/* rule.css */
+
+/* styles for headings */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+  
+h2 {
+    font-size: 1.5rem;
+    /* margin-top: 2rem; */
+    margin-bottom: 1rem;
+}
+  
+h3 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+  
+  /* styles for list */
+ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+  
+  li {
+    list-style-type: none;
+    margin: 0 1rem;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  li a:hover {
+    font-size: 30px;
+    width: 100px;
+    height: 80px;
+  }
+  

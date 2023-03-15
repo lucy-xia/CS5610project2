@@ -5,14 +5,19 @@ const HardGame = () => {
   return (
     <div>
       <h1>Hard Game!</h1>
-      <br />
+      <br/>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/rule">Rule</Link>
-        </li>
+          <Link to="/">
+            <h2>Home</h2></Link>
+  
+          <Link to="/rule">
+            <h2>Rule</h2>
+          </Link>
+          
+          <Link to="/rule">
+            <h2>Easy</h2>
+          </Link>
+
       </ul>
     </div>
   );
